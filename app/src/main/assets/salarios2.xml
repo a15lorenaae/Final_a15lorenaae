@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<salaries>
+    <salary>
+        <month>January</month>
+        <amount>1000</amount>
+        <complement type="commision">500</complement>
+        <complement type="travel">200</complement>
+    </salary>
+    <salary>
+        <month>February</month>
+        <amount>1000</amount>
+        <complement type="commision">300</complement>
+        <complement type="travel">0</complement>
+
+    </salary>
+    <salary>
+        <month>March</month>
+        <amount>2000</amount>
+        <complement type="commision">600</complement>
+        <complement type="travel">0</complement>
+    </salary>
+    <salary>
+        <month>April</month>
+        <amount>3000</amount>
+        <complement type="commision">500</complement>
+        <complement type="food">100</complement>
+    </salary>
+
+</salaries>

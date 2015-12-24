@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Final_a15lorenaae</string>
+    <string name="nome">Introduce un nombre</string>
+    <string name="telefono">Introduce un telefono</string>
+    <string name="chamar">Llamar</string>
+    <string name="Salario">Salario</string>
+    <string name="Audio">Audio</string>
+    <string name="Comprobartelf">Introduce un numero</string>
+    <string name="Azul">Azul</string>
+    <string name="Verde">Verde</string>
+    <string name="Rojo">Rojo</string>
+    <string name="Cor">Cor</string>
+    <string name="ComprobarNome">Introduce un nombre</string>
+    <string name="reproducir">Reproducir</string>
+    <string name="parar">Parar</string>
+    <string name="gravar">Grabar</string>
+    <string name="descargar">Procesando Xml</string>
+    <string name="procesarxml">Mostrar Salarios</string>
+    <string name="bdafile">Salario a fichero</string>
+    <string name="xmlsuper">Salario_Xml_Super</string>
+    <string name="descargar2">Procesando Xml</string>
+    <string name="refrescar">Refrescar</string>
+    <string name="video">Video</string>
+    <string name="toast_video">"No hay VIDEO a guardar"</string>
+    <string name="stop">Parar</string>
+    <string name="play">Reproducir</string>
+    <string name="rec">Gravar</string>
+    <string name="SD">"La tarjeta SD no está en modo acceso escritura"</string>
+    <string name="videoen">Video guardado en</string>
+</resources>

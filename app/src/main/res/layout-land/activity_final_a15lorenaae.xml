@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome"
+        android:id="@+id/textonome"
+        android:inputType="textCapWords"
+        android:textColor="@color/azul"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textotelefono"
+        android:hint="@string/telefono"
+        android:layout_below="@+id/textonome"
+        android:inputType="phone"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnchamar"
+        android:layout_below="@+id/textotelefono"
+        android:text="Chamar"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSalario"
+        android:text="@string/Salario"
+        android:layout_below="@+id/btnchamar"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAudio"
+        android:text="@string/Audio"
+        android:layout_below="@+id/btnSalario"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnVideo"
+            android:text="@string/video"
+            android:layout_below="@+id/btnAudio"/>
+    </LinearLayout>
+</LinearLayout>

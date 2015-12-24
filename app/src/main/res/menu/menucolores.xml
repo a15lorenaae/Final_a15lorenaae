@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="menucolores">
+    <item
+        android:id="@+id/cor"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="@string/Cor">
+        <menu>
+    <item
+        android:id="@+id/menucolorazul"
+        android:title="@string/Azul"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/menucolorverde"
+        android:title="@string/Verde"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menucolorrojo"
+        android:title="@string/Rojo"
+        app:showAsAction="never"/>
+
+</menu>
+    </item>
+</menu>
